@@ -10,14 +10,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-white">
+<body class="bg-black">
     <!-- This example requires Tailwind CSS v3.0+ -->
-    <div class="isolate bg-white">
-        <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu blur-3xl overflow-hidden sm:top-[-20rem]">
-            <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+    <div class="isolate bg-black">
+        <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu blur-3xl overflow-hidden sm:top-[-10rem]">
+            <?xml version="1.0" standalone="no"?>
+        <!-- Generator: SVG Circus (http://svgcircus.com) -->
+        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+        <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-5rem)] sm:h-[42.375rem]" id="SVG-Circus-0f5257c7-39e2-7844-d43a-8f669cc22868" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><rect id="actor_1" x="42" y="12" width="10" height="10" opacity="0.54" fill="rgba(196,94,242,1)" fill-opacity="1" stroke="rgba(196,94,242,1)" stroke-width="36" stroke-opacity="1" stroke-dasharray="24 100"></rect><script type="text/ecmascript"><![CDATA[(function(){var actors={};actors.actor_1={node:document.getElementById("SVG-Circus-0f5257c7-39e2-7844-d43a-8f669cc22868").getElementById("actor_1"),type:"square",cx:47,cy:17,dx:10,dy:8,opacity:0.54};var tricks={};tricks.trick_1=(function(_,t){t=(function(n){return.5>n?2*n*n:-1+(4-2*n)*n})(t)%1,t=t*4%1,t=0>t?1+t:t;var a=(_.node,-46.5*Math.cos(90*Math.PI/180)),i=46.5*Math.sin(90*Math.PI/180);a+=46.5*Math.cos((90-360*t*1)*Math.PI/180),i-=46.5*Math.sin((90-360*t*1)*Math.PI/180),_._tMatrix[4]+=a,_._tMatrix[5]+=i});tricks.trick_2=(function(t,i){i=(function(n){return.5>n?2*n*n:-1+(4-2*n)*n})(i)%1,i=0>i?1+i:i;var _=t.node;0.1>=i?_.setAttribute("opacity",i*(t.opacity/0.1)):i>=0.9?_.setAttribute("opacity",t.opacity-(i-0.9)*(t.opacity/(1-0.9))):_.setAttribute("opacity",t.opacity)});var scenarios={};scenarios.scenario_1={actors: ["actor_1"],tricks: [{trick: "trick_1",start:0,end:1.00}],startAfter:1600,duration:13500,actorDelay:970,repeat:0,repeatDelay:0};var _reqAnimFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.oRequestAnimationFrame,fnTick=function(t){var r,a,i,e,n,o,s,c,m,f,d,k,w;for(c in actors)actors[c]._tMatrix=[1,0,0,1,0,0];for(s in scenarios)for(o=scenarios[s],m=t-o.startAfter,r=0,a=o.actors.length;a>r;r++){if(i=actors[o.actors[r]],i&&i.node&&i._tMatrix)for(f=0,m>=0&&(d=o.duration+o.repeatDelay,o.repeat>0&&m>d*o.repeat&&(f=1),f+=m%d/o.duration),e=0,n=o.tricks.length;n>e;e++)k=o.tricks[e],w=(f-k.start)*(1/(k.end-k.start)),tricks[k.trick]&&tricks[k.trick](i,Math.max(0,Math.min(1,w)));m-=o.actorDelay}for(c in actors)i=actors[c],i&&i.node&&i._tMatrix&&i.node.setAttribute("transform","matrix("+i._tMatrix.join()+")");_reqAnimFrame(fnTick)};_reqAnimFrame(fnTick);})()]]></script></svg>
+            <!-- <svg class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
                 viewBox="0 0 1155 678" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)" fill-opacity=".3"
-                    d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-276.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 162.054-558.954-142.079z" />
+                    d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-276.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 982.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 2299l21.173 162.054-558.954-142.079z" />
                 <defs>
                     <linearGradient id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533" x1="1155.49" x2="-78.208" y1=".177"
                         y2="474.645" gradientUnits="userSpaceOnUse">
@@ -25,7 +29,7 @@
                         <stop offset="1" stop-color="#FF80B5"></stop>
                     </linearGradient>
                 </defs>
-            </svg>
+            </svg> -->
         </div>
         
         <main>
@@ -33,8 +37,8 @@
                 <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
                     <div>
                         <div>
-                            <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">Kalpesh Choudhary</h1>
-                            <p class="mt-6 text-lg font-medium leading-8 text-gray-600 sm:text-center">Frontend Website Developer</p>
+                            <h1 class="text-white text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">Kalpesh Choudhary</h1>
+                            <p class="text-white mt-6 text-lg font-medium leading-8 sm:text-center">Frontend Website Developer</p>
                             <div class="mt-8 flex gap-x-4 sm:justify-center">
                                 <a href="https://thekc66.hackerresume.io/d7777c42-5cca-475c-b963-ffb993a9c5e4"
                                     class="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">
